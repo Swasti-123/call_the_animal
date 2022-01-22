@@ -1,0 +1,40 @@
+body{
+    background-image: radial-gradient(circle,lightgoldenrodyellow,lightgoldenrodyellow, yellow, rgb(175, 247, 175));
+}
+
+p{
+    background-color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.copy_right_footer{
+    bottom: 2;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    text-shadow: 5px 5px 5px rgb(120, 126, 131);
+    line-height: 3;
+    font-size: 20px;
+}
+
+.main .btn{
+background-color:lightgreen;
+font-weight: bold;
+letter-spacing: 2px;
+border: rgb(1, 1, 53) 3px ridge;
+}
+
+h2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 30px;
+    background-color: white;
+    height:40px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
+
+#note{
+    color: red;
+}

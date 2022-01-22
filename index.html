@@ -1,0 +1,58 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <div class="col-xs-12 header text-center">
+        <h2 >CALL THE ANIMALS</h2>
+        <br>
+        <br>
+        <p><span id="note">NOTE : </span> Call either the puppy, the kitten, the lion or the snake. To call them just speak their language, bark, meow, roar or hiss!</p>
+        <br>
+        <br>
+      </div>
+      <br>
+      <br>
+      <div class="main">
+        <center>
+      <button class="btn" onclick="start();">START</button>
+      <h3 id="result_label">You called the - </h3>
+      <h4 id="result_confidence">Accuracy - </h4>
+      <br>
+      <div id="result">
+      <img id="animal" src="ear.jpg">
+      </div>
+         </center>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="copy_right_footer ">
+      Developed by - Swasti Varadaraj  
+      </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
